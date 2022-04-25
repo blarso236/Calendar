@@ -1,0 +1,59 @@
+body {
+    background-image: url(Timberwolf_Mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.monthYear {
+    display: grid;
+    background-color: maroon;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+    width: 63.55%;
+    height: 6.9%;
+    right: 270px;
+    position: absolute;
+    text-align: center;
+    border: 10px solid darkred;
+}
+
+ h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 5%;
+    margin-bottom: -3.5%;
+    position: absolute;
+    right: 355px;
+    bottom: -20%;
+    color: white;
+}
+.weekDay {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: center;
+    padding: 1px;
+}
+
+.weekDay > div {
+    background-color: purple;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    border: 10px solid magenta;
+}
+
+.monthDays {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: center;
+    padding: 1px;
+}
+
+.monthDays > .day {
+    background-color: blue;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    border: 10px solid cornflowerblue;
+    color: limegreen;
+}
